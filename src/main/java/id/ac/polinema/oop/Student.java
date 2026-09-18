@@ -8,8 +8,9 @@ package id.ac.polinema.oop;
  * the autograder calls them exactly as defined here.
  */
 public class Student {
-
-    // TODO: add fields: studentId (String), name (String), gpa (double)
+    String studentId;
+    String name;
+    double gpa;
 
     /**
      * Student constructor.
@@ -19,8 +20,9 @@ public class Student {
      * @param gpa       Grade Point Average (0.0 - 4.0)
      */
     public Student(String studentId, String name, double gpa) {
-        // TODO: store parameters into fields
-        throw new UnsupportedOperationException("Not implemented yet");
+        this.studentId = studentId;
+        this.name = name;
+        this.gpa = gpa;
     }
 
     public String getStudentId() {
