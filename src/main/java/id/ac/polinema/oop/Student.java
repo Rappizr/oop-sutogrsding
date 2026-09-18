@@ -26,18 +26,15 @@ public class Student {
     }
 
     public String getStudentId() {
-        // TODO: return studentId
-        throw new UnsupportedOperationException("Not implemented yet");
+        return studentId;
     }
 
     public String getName() {
-        // TODO: return name
-        throw new UnsupportedOperationException("Not implemented yet");
+        return name;
     }
 
     public double getGpa() {
-        // TODO: return gpa
-        throw new UnsupportedOperationException("Not implemented yet");
+        return gpa;
     }
 
     /**
